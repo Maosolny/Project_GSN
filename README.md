@@ -1,3 +1,31 @@
+Implementation based on:
+
+https://github.com/taoxugit/AttnGAN
+
+https://github.com/openai/CLIP
+
+https://cv-tricks.com/how-to/understanding-clip-by-openai/
+
+If you want to run this in Google Colab:
+
+1. Upload all files to your Google Drive
+2. Install !pip install ftfy
+3. Run with this command: !python main.py --cfg cfg/bird_attn_clip.yml --gpu 0
+
+To run it locally:
+python main.py --cfg cfg/bird_attn_clip.yml --gpu 0
+
+Requirements:
+Python 3.7.13
+
+- pip install torch==1.10.0+cu113 torchvision==0.11.0+cu113 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
+- pip install ftfy
+- pip install regex
+- pip install tqdm
+- pip install easydict (1.9)
+- pip install nltk (3.7)
+- pip install scikit-image (0.16.2 or higher)
+
 # AttnGAN
 
 Pytorch implementation for reproducing AttnGAN results in the paper [AttnGAN: Fine-Grained Text to Image Generation
