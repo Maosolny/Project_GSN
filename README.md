@@ -16,8 +16,7 @@ To run it locally:
 python main.py --cfg cfg/bird_attn_clip.yml --gpu 0
 
 Requirements:
-Python 3.7.13
-
+- Python 3.7.13
 - pip install torch==1.10.0+cu113 torchvision==0.11.0+cu113 torchaudio==0.10.0 -f https://download.pytorch.org/whl/torch_stable.html
 - pip install ftfy
 - pip install regex
